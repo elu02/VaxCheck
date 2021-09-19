@@ -11,3 +11,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  background-image: url('./images/background.jpg');
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+}
+
+
+.quote {
+  color: white;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 350px;
+}
+
+.try {
+	box-shadow: -7px 0px 0px -11px #fff6af;
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 50px #ffee66;
+  margin-top: 30px;
+}
+
+.checker-container {
+  background-image: url('./images/grey.jpg');
+  padding: 30px;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  position: fixed;
+  font-size:16px;
+}
+
+.checker-container {
+  display: flex;
+  flex-direction: 'row';
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.how-to {
+  flex: 45;
+  height: 100px;
+  
+}
+
+.picture {
+  flex: 55;
+  min-height: 100%;
+}
+
+.howto-header {
+  margin-top: 200px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.howto-list {
+  font-size: large;
+}
+
+.capture-button {
+  box-shadow: 0px 0px 0px -50px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:12px;
+	border:1px solid #4e6096;
+	display:inline;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:9px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  margin-top: 5px;
+}
+
+.capture-container {
+  display: flex;
+  flex-direction: 'row';
+  flex-wrap: wrap;
+  width: '100%';
+}
+
+.capture-button {
+  width: 250px
+}
+
+.results {
+  padding-left: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.vaccinated {
+  color: #32CD30;
+}
